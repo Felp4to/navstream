@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataGenerator.h" />
+    <ClInclude Include="UdpServer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataGenerator.cpp" />
+    <ClCompile Include="UdpServer.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
