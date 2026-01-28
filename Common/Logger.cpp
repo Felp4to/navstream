@@ -9,6 +9,6 @@ void Log(LogLevel level, const std::string& msg) {
     const char* lvl =
         level == LogLevel::INFO ? "INFO" :
         level == LogLevel::WARN ? "WARN" :
-        level == LogLevel::ERROR ? "ERROR" : "DEBUG";
+        level == LogLevel::ERROR_ ? "ERROR" : "DEBUG";
     std::cout << "[" << lvl << "] " << msg << std::endl;
 }

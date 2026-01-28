@@ -25,6 +25,11 @@
   <ItemGroup>
     <ClInclude Include="UdpClient.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.vcxproj">
+      <Project>{3b4c34ff-9352-49c0-88c2-ea5eeddff3ab}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
