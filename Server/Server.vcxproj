@@ -24,6 +24,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataGenerator.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="UdpServer.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
